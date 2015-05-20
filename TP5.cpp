@@ -23,6 +23,7 @@ double ObtNumPosit (){
     double num =0;
     while (num <= 0)
         cin >> num;
+   return num;
 }
 
 double CalcPerim (double base, double altura){
